@@ -1,14 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import MyButton from './componentes/MyButton/MyButton';
-import NavBar from './componentes/MyButton/NavBar.js/NavBar';
 import ItemListConteiner from './componentes/ItemList/ItemListConteiner';
+import NavBar from './componentes/navBar/NavBarConteiner';
+
+
 function App() {
   
 
   const titulo = "hola gente como estan?"
   return (
     <div className="App">
+
+      <NavBar/>
       <header className="App-header">
       
         <img src={logo} className="App-logo" alt="logo" />
